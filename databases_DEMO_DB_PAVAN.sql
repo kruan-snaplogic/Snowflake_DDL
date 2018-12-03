@@ -1,0 +1,54 @@
+create or replace database DEMO_DB_PAVAN;
+
+create or replace schema PAVAN1_SCHEMA;
+
+create or replace schema PAVAN2_SCHEMA;
+
+create or replace TABLE CHHAVI_TABLE3 (
+	ACTOR_ID VARCHAR(32700),
+	FN VARCHAR(32700),
+	LN VARCHAR(32700)
+);
+create or replace TABLE PAVAN_TABLE (
+	C1 VARCHAR(16777216),
+	C2 VARCHAR(16777216),
+	C3 VARCHAR(16777216),
+	C4 VARCHAR(16777216),
+	C5 VARCHAR(16777216),
+	C6 VARCHAR(16777216)
+);
+create or replace TABLE PAVAN_TABLE1 (
+	ACCOUNT VARCHAR(16777216),
+	CITY VARCHAR(16777216),
+	STATE VARCHAR(16777216),
+	NAME VARCHAR(16777216)
+);
+create or replace TABLE PAVAN_TABLE2 (
+	"AccountNumber" VARCHAR(32700),
+	"BillingCity" VARCHAR(32700),
+	"BillingState" VARCHAR(32700),
+	"Name" VARCHAR(32700)
+);
+create or replace TABLE PAVAN_TABLE4 (
+	ACTOR_ID NUMBER(38,0),
+	FN VARCHAR(16777216),
+	LN VARCHAR(16777216)
+);
+create or replace TABLE PAVAN_TABLE5 (
+	"Muhammed MacIntyre" VARCHAR(32700),
+	3 VARCHAR(32700),
+	"Nunavut" VARCHAR(32700)
+);
+create or replace schema PAVAN_SCHEMA;
+
+create or replace schema PUBLIC;
+
+create or replace TABLE SNAP_TEST (
+	SNAP VARCHAR(16777216)
+);
+create or replace TABLE TEST1 (
+	C1 VARCHAR(16777216),
+	C2 VARCHAR(16777216),
+	C3 VARCHAR(16777216)
+);
+create or replace schema ROBIN_SCHEMA;
